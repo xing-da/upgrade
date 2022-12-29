@@ -1,12 +1,10 @@
 <template>
-  <div>
-    
-  </div>
+  <div>WTestView</div>
 </template>
 
 <script>
 export default {
-  name: "PerksComponentTest",
+  name: "WTestView",
 
   data() {
     return {};

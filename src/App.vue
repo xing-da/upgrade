@@ -1,8 +1,24 @@
 <template>
   <div id="app">
-    <router-view />
+    
+    <component-vue></component-vue>
   </div>
 </template>
+<script>
+import ComponentVue from "./components/ComponentVue.vue";
+export default {
+  components: { ComponentVue },
+  name: "app",
+
+  data() {
+    return {};
+  },
+
+  mounted() {},
+
+  methods: {},
+};
+</script>
 
 <style lang="less">
 * {
